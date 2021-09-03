@@ -11,7 +11,7 @@
     left:0;
     display:grid;
     justify-content: center;
-    width:100%; height: 93%;
+    width:100%; height: 95%;
 }
 
 form{
@@ -20,14 +20,14 @@ form{
     width:667px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
-    height: 100%;
+    height: 90%;
     margin:auto;
 }
 
 .message-container{
     position: relative;
     box-shadow: 0px 0px 3px rgba(0,0,0,.5);
-    height: 82vh;
+    height: 80vh;
     overflow-y: scroll;
 }
 
@@ -59,6 +59,9 @@ form{
 .chat-container{
     margin: 10px 0px;
     display:grid;
+    position: sticky;
+    bottom: 0;
+    width:100%;
     grid-template-columns: 1fr auto;
 }
 
