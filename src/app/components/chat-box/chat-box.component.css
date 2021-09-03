@@ -13,17 +13,16 @@ form{
     display:grid;
     width:667px; height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+    grid-template-rows:3rem 1fr auto;
     margin:auto;
-    padding-top:3.1rem;
 }
 
 
  .message-container{
     display:grid;
     grid-template-columns: 1fr;
-    bottom: 0;
-    height: 33em;
+    grid-template-rows: 1fr;
+    bottom: 0; max-height: 83vh;
     flex-direction: column;
     box-shadow: 0px 0px 3px rgba(0,0,0,.5);
     overflow-y: scroll;
@@ -89,8 +88,11 @@ form{
     }    
 
     .message-container{
-        height: 33.5em;
-        padding-top:5rem;
+        height: 75vh;
+    }
+
+    form{
+        grid-template-rows:6rem 1fr auto;
     }
 
 }
