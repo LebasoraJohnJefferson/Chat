@@ -1,7 +1,16 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .component-container{
     border:0;
     padding:0;
     box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #navBarLogo{
@@ -12,4 +21,12 @@
     padding: 10px 25px;
     font-size: 2rem;
     color:black;
+}
+
+app-chat-box{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
 }

@@ -101,4 +101,22 @@
     border-radius: 0px 10px 10px 0px;
 }
 
+@media only screen and (max-width:678px){
+    .header-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .search-container{
+        display:flex;
+        margin:auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fit-search-grid:nth-child(1){
+        margin-left:10%;
+    }
+}
 
