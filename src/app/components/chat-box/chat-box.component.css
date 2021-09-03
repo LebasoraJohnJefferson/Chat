@@ -26,7 +26,10 @@ form{
     flex-direction: column;
     box-shadow: 0px 0px 3px rgba(0,0,0,.5);
     overflow-y: auto;
-    height: 83vh;
+    position: sticky;
+    bottom: 3.5rem;
+    padding-top:3.1rem;
+    height: 90vh;
 }
 
 .chat-friend,
