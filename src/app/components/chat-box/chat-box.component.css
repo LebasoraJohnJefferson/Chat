@@ -23,10 +23,8 @@ form{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     bottom: 0; 
-    max-height:82vh;
-    max-height: -webkit-calc(100vh-6.1rem);
-    max-height: -moz-calc(100vh-6.1rem);
-    max-height: calc(100vh-6.1rem);
+    height: 100vh;
+    padding-bottom: 6.5rem;
     flex-direction: column;
     box-shadow: 0px 0px 3px rgba(0,0,0,.5);
     overflow-y: auto;
@@ -49,7 +47,7 @@ form{
     margin: 10px 0px 0px 0px;
     display:grid;
     position: sticky;
-    bottom: 5px;
+    bottom: 2px;
     width:100%;
     grid-template-columns: 1fr auto;
 }
@@ -92,10 +90,7 @@ form{
     }    
 
     .message-container{
-        max-height: 70vh;
-        max-height: -webkit-calc(100vh-10rem);
-        max-height: -moz-calc(100vh-10rem);
-        max-height: calc(100vh-10rem);
+        padding-bottom: 10rem;
     }
 
     form{
