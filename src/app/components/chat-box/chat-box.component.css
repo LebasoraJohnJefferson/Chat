@@ -85,6 +85,7 @@ form{
     }    
 
     .message-container{
+        height: 78vh;
         margin-top:6rem;
     }
 }
