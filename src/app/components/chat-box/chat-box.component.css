@@ -23,7 +23,7 @@ form{
     grid-template-columns: 1fr;
     margin-top:3.1rem;
     bottom: 0;
-    max-height: 550px;
+    height: 33em;
     flex-direction: column;
     box-shadow: 0px 0px 3px rgba(0,0,0,.5);
     overflow-y: scroll;
@@ -86,7 +86,7 @@ form{
     }    
 
     .message-container{
-        max-height: 555px;
+        height: 34.5em;
         margin-top:6.1rem;
     }
 
