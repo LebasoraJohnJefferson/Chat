@@ -1,0 +1,15 @@
+.component-container{
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navBarLogo{
+    position: fixed;
+    cursor: pointer;
+    z-index: 3;
+    top:0; left:0;
+    padding: 10px 25px;
+    font-size: 2rem;
+    color:black;
+}
