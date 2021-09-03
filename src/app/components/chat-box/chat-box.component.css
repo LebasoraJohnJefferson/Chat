@@ -13,7 +13,7 @@ form{
     display:grid;
     width:667px; height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows:3rem 1fr auto;
+    grid-template-rows:3rem 1fr 3.5rem;
     margin:auto;
 }
 
@@ -22,10 +22,14 @@ form{
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    bottom: 0; max-height: 83vh;
+    bottom: 0; 
+    max-height:82vh;
+    max-height: -webkit-calc(100vh-6.1rem);
+    max-height: -moz-calc(100vh-6.1rem);
+    max-height: calc(100vh-6.1rem);
     flex-direction: column;
     box-shadow: 0px 0px 3px rgba(0,0,0,.5);
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .chat-friend,
@@ -88,7 +92,10 @@ form{
     }    
 
     .message-container{
-        height: 70vh;
+        max-height: 70vh;
+        max-height: -webkit-calc(100vh-10rem);
+        max-height: -moz-calc(100vh-10rem);
+        max-height: calc(100vh-10rem);
     }
 
     form{
