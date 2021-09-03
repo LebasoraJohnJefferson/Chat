@@ -24,7 +24,7 @@ form{
     grid-template-columns: 1fr;
     margin-top:3.1rem;
     margin-bottom: -5px;
-    height: 80vh;
+    height: 34em;
     flex-direction: column;
     box-shadow: 0px 0px 3px rgba(0,0,0,.5);
     overflow-y: scroll;
@@ -87,7 +87,8 @@ form{
     }    
 
     .message-container{
-        height: 75vh;
+        height: 35em;
         margin-top:6.1rem;
     }
+
 }

@@ -118,5 +118,11 @@
     .fit-search-grid:nth-child(1){
         margin-left:10%;
     }
+
+    .logo-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
