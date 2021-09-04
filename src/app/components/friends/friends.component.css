@@ -1,12 +1,80 @@
 .friends-container{
+    z-index: 1;
     position: fixed;
-    bottom:0; left:0;
+    top:0; left:0;
     width:20rem;
-    padding-top:3.1rem;
     height: 100vh;
+    display:grid;
+    background: white;
+    grid-template-rows: 3.1rem 1fr;
+    grid-template-columns:1fr;
+}
+
+.friend-list{
+    overflow-y: scroll;
     background-color: white;
     box-shadow: 0px 0px 3px rgb(16, 107, 119),
                 0px 0px 5px rgb(16, 107, 119);
-    overflow-y: scroll;
-    scroll-snap-type: proximity;
+}
+
+.nav-title{
+    height: 2rem; width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends{
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px auto;
+    background: white;
+    width:95%; height: 2.5rem;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.5);
+}
+
+.friend a{
+    color:rgb(57, 119, 128);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.friends:hover{
+    background-color:rgba(0,0,0,.5);
+}
+
+.friends:hover a{
+    cursor: pointer;
+    color:white;
+}
+
+#logo{
+    z-index: 3;
+    left:0;
+    position: fixed;
+    top:3.1rem;
+    width:3rem; height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin:10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:678px){
+    .friends-container{
+        grid-template-rows:6.1rem 1fr;
+    }   
+
+    .friend-list{
+        width:100vw;
+    }
+
+    #logo{
+        top:6.1rem;
+    }
 }

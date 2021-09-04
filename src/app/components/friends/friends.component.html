@@ -1,3 +1,10 @@
-<div class='friends-container'>
-    <app-nav-icon></app-nav-icon>
+<i id='logo' (click)='FriendNav()' [ngClass]="isFriendNavOpen ? 'fas fa-arrow-to-left': 'fas fa-arrow-to-right'"></i>
+<div class='friends-container' *ngIf='isFriendNavOpen'>
+    <div class='margin-top'></div>
+    <div class='friend-list'>
+        <h3 class='nav-title'>FRIENDS</h3>
+        <div class='friends' *ngFor='let friend of Friends'>
+            <div class='friend'><a routerLink='profile'>Your Friend</a></div>
+        </div>
+    </div>
 </div>

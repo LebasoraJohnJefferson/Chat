@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ChatBoxComponent } from './components/chat-box/chat-box.component';
 import { NavBarMenuComponent } from './components/nav-bar-menu/nav-bar-menu.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { FriendsComponent } from './components/friends/friends.component';
 
 const appRoutes :Routes=[
   {path:'', component:HomeComponent},
@@ -23,6 +24,7 @@ const appRoutes :Routes=[
     ChatBoxComponent,
     NavBarMenuComponent,
     ProfileComponent,
+    FriendsComponent,
   ],
   imports: [
     BrowserModule,

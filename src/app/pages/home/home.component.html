@@ -1,5 +1,6 @@
 <div class='component-container'>
     <app-header></app-header>
+    <app-friends></app-friends>
     <app-chat-box></app-chat-box>
     <app-nav-bar-menu *ngIf="isNavBarOpen"></app-nav-bar-menu>
     <i [ngClass]="isNavBarOpen ?  'fas fa-times' : 'fas fa-bars' " (click)='navBarStatus()' navBarStatus='navBarStatus()'  id='navBarLogo' ></i>
