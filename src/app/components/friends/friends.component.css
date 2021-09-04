@@ -1,0 +1,12 @@
+.friends-container{
+    position: fixed;
+    bottom:0; left:0;
+    width:20rem;
+    padding-top:3.1rem;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgb(16, 107, 119),
+                0px 0px 5px rgb(16, 107, 119);
+    overflow-y: scroll;
+    scroll-snap-type: proximity;
+}

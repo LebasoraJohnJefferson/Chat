@@ -40,7 +40,9 @@ img{
     background-size:cover ;
 }
 
+
 .follow{
+    cursor:pointer;
     padding:10px 5rem; 
     border-radius: 5px;
     outline:none;
