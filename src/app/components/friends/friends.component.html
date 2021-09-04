@@ -4,7 +4,14 @@
     <div class='friend-list'>
         <h3 class='nav-title'>FRIENDS</h3>
         <div class='friends' *ngFor='let friend of Friends'>
-            <div class='friend'><a routerLink='profile'>Your Friend</a></div>
+            <div class='friend'>Your Friend
+                <a routerLink='profile'>
+                    <i class="far fa-address-card"></i>
+                </a>
+                <a>
+                    <i class="far fa-comment-alt"></i>
+                </a>
+            </div>
         </div>
     </div>
 </div>
