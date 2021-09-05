@@ -5,28 +5,56 @@
 }
 
 .component-container{
-    border:0;
-    padding:0;
-    box-sizing: border-box;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:3rem 1fr;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows:1fr;
+}
+
+
+app-friends{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+app-chat-box{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+app-nav-bar-menu{
+    position:fixed;
+    top:0;
+    left:0;
 }
 
 #navBarLogo{
     position: fixed;
-    cursor: pointer;
     z-index: 3;
     top:0; left:0;
-    padding: 10px 25px;
-    font-size: 2rem;
+    margin:15px;
+    font-weight: bold;
     color:white;
+    font-size: 1.5rem;
 }
+    
 
-app-chat-box{
-    position: fixed;
-    left:0;
-    top:0;
-    width:100%;
-    height: 100%;
+
+@media only screen and (max-width:678px){
+    
+    .component-container{
+        grid-template-rows:6rem 1fr;
+    }
+
+    .main-container{
+        grid-template-columns: 1fr auto;
+
+    }
 }
