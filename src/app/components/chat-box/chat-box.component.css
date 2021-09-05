@@ -76,6 +76,8 @@ form{
     color:rgb(16, 107, 119);
     font-size: 1.2rem;
     background: white;
+    position: sticky;
+    bottom: 0;
 }
 
 .chat-btn:hover{
