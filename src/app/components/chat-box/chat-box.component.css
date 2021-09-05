@@ -49,7 +49,7 @@ form{
 }
 
 .my-chat{
-    margin-left:45%;
+    margin-left:49%;
     background-color: rgba(24, 179, 83, 0.5);
 }
 
@@ -84,6 +84,21 @@ form{
     cursor: pointer;
     color:white;
     background:rgb(16, 107, 119);
+}
+
+
+::-webkit-scrollbar{
+    width:5px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow:inset 0 0 5px rgb(16, 107, 119);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
 }
 
 @media only screen and (max-width:678px){
